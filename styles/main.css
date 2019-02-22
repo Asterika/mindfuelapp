@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700|Shadows+Into+Light|Jaldi|Montserrat|Felipa|Yellowtail|Glacial+Indifference|Alegreya+Sans:400,900');
+
+/* :root {
+
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Alegreya Sans', sans-serif;
+  margin: 0 auto;
+}
+/* .container {
+  height: 100vh;
+  width: 100vw;
+} */
+
+/* COLUMNS */
+/* .col-4 {
+  border: 1px inset grey;
+  height: 40vh;
+  margin: 0.2%;
+  width: 100vw;
+  padding: 2%;
+} */
+
+footer {
+  color: white;
+  /* height: 3vh; */
+  /* left: 50%; */
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* BORDERS */
+.bdr-info {
+  /* border: 3px solid #6EB2C3; */
+  border: 3px solid #ff8000;
+}
+
+/* COLUMNS */
+.col-tutor {
+  background-image: url('../images/learning.png');
+}
+
+.col-edit {
+  background-image: url('../images/editing.png');
+}
+
+/* HEIGHT */
+.h-40v {
+  height: 40vh;
+}
+
+/* IMAGES */
+.img-main {
+  height: 80vh;
+  margin-top: -4%;
+  object-fit: cover;
+  width: 100%;
+}
+.img-overlay {
+  position: absolute;
+  top: 50;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(30, 30, 30, 0.75);
+}
+.img-wrapper {
+  position: relative;
+  width: 100%;
+  font-size: 0;
+}
+
+/* NAVIGATION */
+.navbar {
+  opacity: 0.8;
+  text-align: center;
+}
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+}
+.nav-footer {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.nav-item, .text-center {
+  /* font-family: 'Montserrat', sans-serif; */
+  /* font-family: 'Jaldi', sans-serif; */
+  /* font-family: 'Shadows Into Light', sans-serif; */
+  /* font-family: 'Felipa', sans-serif; */
+  /* font-family: 'Alegreya Sans', sans-serif; */
+  font-weight: 900;
+  letter-spacing: 0.15rem;
+  padding-right: 8.5%;
+}
+.nav-link {
+  color: white;
+  font-size: 1.7rem;
+  font-weight: bold;
+  opacity: 1;
+  text-transform: uppercase;
+}
+.nav-link:hover {
+  color: palegreen;
+}
+
+/* FONTS */
+.fs-18 {
+  font-size: 1.8rem;
+}
+.fw-900 {
+  font-weight: 900;
+}
+.up {
+  text-transform: uppercase;
+}
+
+/* PADDING */
+.p2 {
+  padding: 2%;
+}
+
+
+/* WIDTHS */
+.w-200v {
+  width: 200vw;
+}
